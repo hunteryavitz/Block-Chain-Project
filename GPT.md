@@ -1,6 +1,9 @@
 Model: GPT-4
+
 User
+
 I'd like to build a crud application that makes use of block chain technology to create a chain of custody for entities such as inventory.  These entities would probably have a property like signature that would be assigned as the inventory item was received or delivered.  Does this sound like a feasible idea?
+
 ChatGPT
 
 Yes, your idea of building a CRUD (Create, Read, Update, Delete) application that uses blockchain technology for inventory management is feasible and has several potential benefits. By integrating blockchain, you would have an immutable, transparent, and secure ledger for tracking inventory items through their lifecycle, which is particularly useful for establishing a reliable chain of custody.
