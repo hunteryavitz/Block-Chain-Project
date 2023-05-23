@@ -13,10 +13,11 @@ This project marks an attempt to create a proof-of-concept block chain network t
 ### Details
 Details for this project are yet to come.  A brief desciption follows:
 
-**Back-End**
+### Back-End
+
 There will be a back-end service that accepts transaction requests and manage a queue.  It will distribute these transaction requests to a set of nodes.  These nodes will process the transactions by mining a crypto-block and assigning the tranactions to this.  Then the node will add the block to the block chain and broadcast to the other nodes so they can also update their block chains through a validation process.
 
-**Front-End**
+### Front-End
 
 **Admin Panel**
 
