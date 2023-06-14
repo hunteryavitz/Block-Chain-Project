@@ -35,8 +35,7 @@ There will be a front-end UI that will present to a field worker a client interf
 
 The following applications are needed for this project:
 
-- [draw.io](https://app.diagrams.net/)
-   - Viewing XML diagrams
+- [TBD]()
 
 ### Summary
 The aim of this project is to build a block chain network from scratch.  This is purely educational and **could not / should not** every be considered for a production environment.
