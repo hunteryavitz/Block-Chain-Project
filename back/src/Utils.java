@@ -20,4 +20,33 @@ public class Utils {
         return hexString.toString();
     }
 
+    public static boolean verifyBlockchain(Block[] blockchain) {
+        for (int i = 1; i < blockchain.length; i++) {
+            Block currentBlock = blockchain[i];
+            Block previousBlock = blockchain[i - 1];
+
+            try {
+                if (!currentBlock.getHash().equals(
+                        calculateHash(currentBlock.getIndex(), currentBlock.getPrevious_hash(),
+                                currentBlock.getTimestamp(), currentBlock.getData()))) {
+                    System.out.println("Block has a hash mismatch: " + currentBlock.getIndex());
+                    return false;
+                }
+                System.out.println("Block hash matches: " + currentBlock.getIndex());
+
+                if (!currentBlock.getPrevious_hash().equals(previousBlock.getHash())) {
+                    System.out.println("Block has a previous hash pointer mismatch: " + currentBlock.getIndex());
+                    return false;
+                }
+                System.out.println("Block previous hash matches: " + currentBlock.getIndex());
+
+            } catch (NoSuchAlgorithmException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        System.out.println("Blockchain is valid");
+
+        return true;
+    }
 }
