@@ -1,4 +1,4 @@
-![image](https://github.com/hunteryavitz/Block-Chain-Project/assets/8253185/ca84d46a-edf1-45fa-a509-32f470f74752)# Block Chain Project
+# Block Chain Project
 
 **v0.0.1**
 
@@ -42,7 +42,7 @@ The aim of this project is to build a block chain network from scratch.  This is
 
 ### Extra
 
-[Project Anatomy Wiki]()
+[Project Anatomy Wiki](https://github.com/hunteryavitz/Block-Chain-Project/wiki/Project-Anatomy)
 
 []()
 
