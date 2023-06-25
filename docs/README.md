@@ -1,4 +1,4 @@
-# Block Chain Project
+![image](https://github.com/hunteryavitz/Block-Chain-Project/assets/8253185/ca84d46a-edf1-45fa-a509-32f470f74752)# Block Chain Project
 
 **v0.0.1**
 
@@ -41,6 +41,11 @@ The following applications are needed for this project:
 The aim of this project is to build a block chain network from scratch.  This is purely educational and **could not / should not** every be considered for a production environment.
 
 ### Extra
+
+[Project Anatomy Wiki]()
+
+[]()
+
 Feel free to download and enjoy without restrictions.
 
 For questions or comments, please reach out to me at [h.yavitz@gmail.com](mailto:h.yavitz@gmail.com).
