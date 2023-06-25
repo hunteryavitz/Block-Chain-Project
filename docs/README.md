@@ -14,10 +14,12 @@ This project marks an attempt to create a proof-of-concept block chain network t
 Details for this project are yet to come.  A brief desciption follows:
 
 ### Back-End
+[GitHub Repository]()
 
 There will be a back-end service that accepts transaction requests and manage a queue.  It will distribute these transaction requests to a set of nodes.  These nodes will process the transactions by mining a crypto-block and assigning the tranactions to this.  Then the node will add the block to the block chain and broadcast to the other nodes so they can also update their block chains through a validation process.
 
 ### Front-End
+[GitHub Repository]()
 
 **Admin Panel**
 
@@ -28,6 +30,7 @@ There will be a front-end UI that will present to a block chain network admin a 
 There will be a front-end UI that will present to a merchant a series of dashboards a various stages of transactions to monitor the overall throughput of transaction as they pertain to the merchant.  This could include **order received**, **order signed by**, or **order delivered**.
 
 **Mobile Client**
+[GitHub Repository]()
 
 There will be a front-end UI that will present to a field worker a client interface that can create, read, and update transactions.  Creating a transaction could represent an order creation.  Reading a transaction could be a simple list / detail interface.  Updating a transaction could represent changing status in the chain of custody, such as **received**, **signed for**, or **delivered**.
 
@@ -44,7 +47,7 @@ The aim of this project is to build a block chain network from scratch.  This is
 
 [Project Anatomy Wiki](https://github.com/hunteryavitz/Block-Chain-Project/wiki/Project-Anatomy)
 
-[]()
+[Project Overview Wiki](https://github.com/hunteryavitz/Block-Chain-Project/wiki/Project-Overview)
 
 Feel free to download and enjoy without restrictions.
 
